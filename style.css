@@ -1,0 +1,87 @@
+body{
+   background-color: #bdc3c7; 
+}
+#heading , #banner, #movie-holder, #info-box
+{
+    background-color: #9b59b6;
+    border: 10px solid #ecf0f1;
+    border-radius: 10px; 
+    padding: 10px
+}
+
+#heading {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 1000;
+    font-family:sans-serif;
+    padding-top: 1px;
+    
+}
+#banner{
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 1000;
+    font-size: 20px;
+    font-family:sans-serif;
+    background-color: #3498db;
+}
+#movie-holder{
+    
+    height: 300px;
+    overflow: auto;
+    margin-bottom: 20px;
+        
+}
+#info-box{
+    
+    margin-bottom: 10px;
+    background-color: #27ae60;
+    margin-bottom: 20px;
+    font-weight: 100;
+    font-size: 18px;
+    font-family:sans-serif;
+}
+.movie_icon
+{
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    clear: right;
+    width: 220px;
+    height: 30px;
+    opacity: 100;
+    background-color: #3498db;
+    border-radius: 3px; 
+}
+
+.movie_icon:hover
+{
+    border: 1px solid #ecf0f1;
+    background-color: #f1c40f
+}
+
+
+#back-button
+{
+    border: 3px solid #c0392b;
+    height:30px;
+    width: 160px;
+    background-color: #e74c3c;
+    text-align: center;
+    font-size: 20px;
+    font-family:sans-serif;
+    
+}
+#back-button:hover
+{
+    background-color: #c0392b;
+}
+
+body {background-image: url(/animebackground.jpg)}
+
+
+
+
+
